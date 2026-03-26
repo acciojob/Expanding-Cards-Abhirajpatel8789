@@ -1,1 +1,51 @@
 /*  your css code here. If applicable */
+#panel-1{
+	background:url(https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
+}
+#panel-2{
+	background:url(https://images.unsplash.com/photo-1572276596237-5db2c3e16c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80 )
+}
+#panel-3{
+	background:url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80)
+}
+#panel-4{
+	background:url(https://images.unsplash.com/photo-1551009175-8a68da93d5f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80
+)
+}
+#panel-5{
+	background:url(https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
+}
+.container{
+	display: flex;
+	height:400px;
+	margin-block-start:100px;
+	margin-inline: auto;
+	padding: 20px;
+	column-gap: 10px;
+	justify-content: center;
+}
+.panel{
+	height: 100%;
+	width: 80px;
+	border-radius: 20px;
+	background-size: cover;
+	background-position:center;
+	display: flex;
+	align-items: flex-end;
+}
+p{
+	display: none;
+}
+.active{
+	width: 100%;
+	
+	transition: linear 0.5s;
+	border-radius: 15px;
+	p{
+		display: block;
+		color: white;
+		font-family: Arial;
+		margin: 10px;
+	}
+}
+
